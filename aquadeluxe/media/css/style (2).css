@@ -659,6 +659,12 @@ nav.navbar {
   background-size: cover;
 }
 
+.six1-section{
+  padding: 100px 0px;
+  background: url(../img/3333.png) no-repeat bottom right;
+  background-size: cover;
+}
+
 .seven-section{
   background: url(../img/14.jpg) no-repeat;
   background-size: cover;
@@ -736,7 +742,7 @@ input.form-control{
 .description-box.six p{
   text-align: center;
 }
-.second-section, .fourth-section, .fifth-section, .six-section, .seven-section, .eight-section {
+.second-section, .fourth-section, .fifth-section, .six-section, .six1-section .seven-section, .eight-section {
   overflow: hidden;
 }
 .scrolltop .icon img{
@@ -775,7 +781,7 @@ input.form-control{
     z-index: 1000;
 }
 
-.fourth-section .text-catalog, .six-section .text-catalog{
+.fourth-section .text-catalog, .six-section, .six1-section, .text-catalog{
   padding-top: 0;
 }
 
@@ -933,6 +939,11 @@ input.form-control{
     background-position: center left !important;
   }
 }
+@media only screen and (max-width : 771px) {
+  .six1-section{
+    background-position: center left !important;
+  }
+}
 @media only screen and (max-width : 767px) {
   
   .fifth-section {
@@ -975,6 +986,9 @@ input.form-control{
   .six-section {
       background-position: center !important;
   }
+  .six1-section {
+      background-position: center !important;
+  }
   .fifth-section {
       padding: 100px 0px !important;
   }
@@ -1012,10 +1026,10 @@ input.form-control{
   .text-right h4, .text-right p, .text-right{
     text-align: center !important;
   }
-  .six-section .img-four-cont img {
+  .six-section, .six1-section .img-four-cont img {
       width: 60% !important;
   }
-  .six-section .img-four-cont .img-four{
+  .six-section, .six1-section .img-four-cont .img-four{
     text-align: center !important;
   }
   .fifth-section .img-four{
